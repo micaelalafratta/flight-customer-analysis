@@ -1,4 +1,4 @@
-# Airline Loyalty Customer Analysis
+# Airline Loyalty Customer Analysis: End-to-end EDA project
 
 Exploratory data analysis and visualisation of a Canadian airline's loyalty programme — profiling customer behaviour, flight activity, and programme engagement across 400K+ records.
 
@@ -17,14 +17,17 @@ Exploratory data analysis and visualisation of a Canadian airline's loyalty prog
 │   ├── 1.EDA_clean.ipynb
 │   └── 2.Viz.ipynb
 ├── outputs/
-│   └── 1.documentation_EDA.md
-├── reports/
+│   ├── figures/
+│   │   ├── monthly_flight_activity.png
+│   │   ├── distance_vs_points.png
+│   │   └── loyalty_card_distribution.png
+│   ├── 1.documentation_EDA.md
+│   └── Airline_Loyalty_Analysis_Report.docx
 ├── src/
 │   ├── colour_palettes_support.py
 │   ├── EDA_support.py
 │   └── soporte_correlacion.py
 ├── .gitignore
-├── image.png
 └── README.md
 ```
 
